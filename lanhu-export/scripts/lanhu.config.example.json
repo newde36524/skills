@@ -1,0 +1,15 @@
+{
+  "_说明": "可选配置文件。复制本文件为 lanhu.config.json 并修改。命令行参数（如 --doc-selector）优先于此处。",
+  "loginIndicators": [
+    "input[type=\"password\"]",
+    "text=登录",
+    "button:has-text(\"登录\")"
+  ],
+  "requirementTabSelector": "",
+  "requirementDocSelector": "",
+  "docBodySelector": "",
+  "docTitleSelector": "",
+  "docLinkAttr": "href",
+  "docHrefKeywords": ["requirement", "docId", "/doc/"],
+  "docTextKeywords": ["需求"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "lanhu-export-skill",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright automation engine for the lanhu-export skill: exports all requirement documents from a Lanhu (蓝湖) project.",
+  "type": "module",
+  "scripts": {
+    "export": "node export-lanhu.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.65.1"
+  }
+}
